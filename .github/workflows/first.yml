@@ -13,8 +13,8 @@ jobs:
               run: env | sort
             - name: Java version
               run: java -version
-            - name: SonarCloud Scan
-              uses: SonarSource/sonarcloud-github-action@v1.5
+            - name: Run java checkstyle
+              uses: nikitasavinov/checkstyle-action@0.3.1
     job2: 
         name: Second job
         runs-on: windows-latest
