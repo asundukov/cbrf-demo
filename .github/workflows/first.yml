@@ -12,7 +12,7 @@ jobs:
             - name: Step two
               run: env | sort
             - name: Java version
-              run: java -v
+              run: java -version
     job2: 
         name: Second job
         runs-on: windows-latest
